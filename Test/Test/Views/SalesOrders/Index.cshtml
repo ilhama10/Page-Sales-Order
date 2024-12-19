@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Test.Models.SalesOrder>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Home/Index.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ORDER_NO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ORDER_DATE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.COM_CUSTOMER_ID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ADDRESS)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ORDER_NO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ORDER_DATE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.COM_CUSTOMER_ID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ADDRESS)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.SO_ORDER_ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.SO_ORDER_ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.SO_ORDER_ID })
+        </td>
+    </tr>
+}
+
+</table>

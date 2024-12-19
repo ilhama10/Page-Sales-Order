@@ -1,0 +1,139 @@
+﻿@model Test.Models.SalesOrder
+
+@{
+    ViewBag.Title = "Add New - Sales Order";
+}
+
+<style>
+    body {
+        background-color: #2b6fa6;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .card {
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h5 {
+        background-color: #004b9a;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .form-label {
+        font-weight: bold;
+    }
+
+    .form-control, .btn {
+        border-radius: 5px;
+    }
+
+    .btn-primary {
+        background-color: #004b9a;
+        border-color: #004b9a;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+    .table {
+        background-color: #ffffff;
+        text-align: center;
+    }
+
+        .table thead {
+            background-color: #004b9a;
+            color: #ffffff;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+    .btn-save {
+        background-color: #dc3545;
+        color: #ffffff;
+    }
+
+    .btn-close {
+        background-color: #343a40;
+        color: #ffffff;
+    }
+</style>
+
+<div class="container mt-4">
+    <h3 class="text-center text-white">ADD NEW - SALES ORDER</h3>
+    <div class="card">
+        <!-- Sales Order Information Section -->
+        <h5>Sales Order Information</h5>
+        @using (Html.BeginForm("AddItemOrder", "Home", FormMethod.Post, new { @class = "form" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="row">
+                <div class="col-md-4">
+                    @Html.LabelFor(m => m.ORDER_NO, htmlAttributes: new { @class = "form-label" })
+                    @Html.TextBoxFor(m => m.ORDER_NO, new { @class = "form-control", placeholder = "Enter Order Number" })
+                </div>
+                <div class="col-md-4">
+                    @Html.LabelFor(m => m.ORDER_DATE, htmlAttributes: new { @class = "form-label" })
+                    @Html.TextBoxFor(m => m.ORDER_DATE, new { @type = "date", @class = "form-control" })
+                </div>
+                <div class="col-md-4">
+                    @Html.LabelFor(m => m.COM_CUSTOMER_ID, htmlAttributes: new { @class = "form-label" })
+                    @Html.DropDownListFor(m => m.COM_CUSTOMER_ID, (SelectList)ViewBag.CustomerId, "Select Customer", new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    @Html.LabelFor(m => m.ADDRESS, htmlAttributes: new { @class = "form-label" })
+                    @Html.TextAreaFor(m => m.ADDRESS, new { @class = "form-control", rows = "2", placeholder = "Enter ADDRESS" })
+                </div>
+            </div>
+
+            <!-- Detail Item Information Section -->
+            <h5 class="mt-4">Detail Item Information</h5>
+            <button class="btn btn-danger mb-3">Add Item</button>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Action</th>
+                        <th>Item Name</th>
+                        <th>Qty</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="6">No data available</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="d-flex justify-content-end">
+                <p><b>Total Item:</b> 0 | <b>Total Amount:</b> 0.00</p>
+            </div>
+
+            <!-- Buttons -->
+            <div class="d-flex justify-content-between mt-3">
+                <button type="submit" class="btn btn-danger btn-save">Save</button>
+                <button type="button" class="btn btn-dark" onclick="window.location.href='@Url.Action("Index", "Home")'">Close</button>
+            </div>
+        }
+    </div>
+</div>

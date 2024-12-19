@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ILHAM\\source\\repos\\Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|c:\\users\\ilham\\source\\repos\\test\\test\\views\\home\\addsalesorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|solutionrelative:test\\views\\home\\addsalesorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|c:\\users\\ilham\\source\\repos\\test\\test\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|solutionrelative:test\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|c:\\users\\ilham\\source\\repos\\test\\test\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|solutionrelative:test\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|c:\\users\\ilham\\source\\repos\\test\\test\\models\\salesorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|solutionrelative:test\\models\\salesorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|c:\\users\\ilham\\source\\repos\\test\\test\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|solutionrelative:test\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|c:\\users\\ilham\\source\\repos\\test\\test\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|solutionrelative:test\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|c:\\users\\ilham\\source\\repos\\test\\test\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|solutionrelative:test\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|c:\\users\\ilham\\source\\repos\\test\\test\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|solutionrelative:test\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|c:\\users\\ilham\\source\\repos\\test\\test\\controllers\\salesorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|solutionrelative:test\\controllers\\salesorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|c:\\users\\ilham\\source\\repos\\test\\test\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1618912F-83BB-4D95-A8FB-28BEE81F01AE}|Test\\Test.csproj|solutionrelative:test\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddSalesOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Views\\Home\\AddSalesOrder.cshtml",
+              "RelativeDocumentMoniker": "Test\\Views\\Home\\AddSalesOrder.cshtml",
+              "ToolTip": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Views\\Home\\AddSalesOrder.cshtml",
+              "RelativeToolTip": "Test\\Views\\Home\\AddSalesOrder.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAEcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T09:46:15.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SalesOrder.cs",
+              "DocumentMoniker": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Models\\SalesOrder.cs",
+              "RelativeDocumentMoniker": "Test\\Models\\SalesOrder.cs",
+              "ToolTip": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Models\\SalesOrder.cs",
+              "RelativeToolTip": "Test\\Models\\SalesOrder.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:41:16.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Test\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Test\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T09:34:52.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Test\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Test\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwBUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:26:40.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Controllers\\OrderItemsController.cs",
+              "RelativeDocumentMoniker": "Test\\Controllers\\OrderItemsController.cs",
+              "ToolTip": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Controllers\\OrderItemsController.cs",
+              "RelativeToolTip": "Test\\Controllers\\OrderItemsController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:22:17.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Test\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Test\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T08:38:10Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Test\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Models\\Customer.cs",
+              "RelativeToolTip": "Test\\Models\\Customer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T08:37:41.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Web.config",
+              "RelativeDocumentMoniker": "Test\\Web.config",
+              "ToolTip": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Web.config",
+              "RelativeToolTip": "Test\\Web.config",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAGwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-19T08:39:31.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SalesOrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Controllers\\SalesOrdersController.cs",
+              "RelativeDocumentMoniker": "Test\\Controllers\\SalesOrdersController.cs",
+              "ToolTip": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Controllers\\SalesOrdersController.cs",
+              "RelativeToolTip": "Test\\Controllers\\SalesOrdersController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:19:28.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "Test\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\ILHAM\\source\\repos\\Test\\Test\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Test\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:23:21.221Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
